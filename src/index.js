@@ -22,7 +22,7 @@ YaAuthSuggest.init({
          response_type: 'token',
          redirect_uri: 'https://oauth-master-class-icaw.vercel.app/token.html'
       },
-      'https://oauth-master-class-icaw.vercel.app/'
+      'https://oauth-master-class-icaw.vercel.app'
    )
   .then(({ handler }) => handler())
       .then(async (data) => {
